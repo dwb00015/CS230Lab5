@@ -1,0 +1,11 @@
+.card-container{
+    display: inline-flex;
+}
+.card{
+    width: 200px;
+    margin: 10px;
+    border: 1px;
+    border-color: crimson;
+    padding: 10px;
+}
+

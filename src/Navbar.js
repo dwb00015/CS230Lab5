@@ -4,15 +4,11 @@ import './Navbar.css';
 
 function Navbar(){
     return(
-        <div>
-            Navbar
-        </div>
-    );
-    return(
         <nav>
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
+            <h1>Navbar</h1>
+            <a href="/">Home</a>
+            <a href="/Card">Card</a>
+            <a href="/Contact">Contact</a>
         </nav>
     );
 }
